@@ -2,4 +2,4 @@ const character = '#';
 const count = 8;
 const rows = [];
 
-for ( let i = 0; "condition"; "iterator") {}
+for ( let i = 0; i < count; "iterator") {}
