@@ -3,8 +3,9 @@ const count = 8;
 const rows = [];
 
 function padRow(name) {
-	return character + name;
 	const test = "Testing";
+	return character + name;
+	
 }
 
 padRow();
