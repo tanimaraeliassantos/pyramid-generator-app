@@ -10,9 +10,9 @@ function padRow(rowNumber, rowCount) {
 	);
 }
 // Change code to a different kind of loop
-/*for (let i = 1; i <= count; i ++) {
+for (let i = 1; i <= count; i ++) {
 	rows.push(padRow(i, count));
-}*/
+}
 
 /* while (rows.length < count) {
 	rows.push(padRow(rows.length + 1, count));
