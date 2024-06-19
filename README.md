@@ -16,9 +16,12 @@ The Pyramid Generator application was built as a practice project for a JavaScri
 
 ## Start the App
 
-In the project directory, Open up your terminal.
+In the project directory, open your terminal.
 
-Open Debug Console tab. Run and Debug to show the Resulting Pyramid. Changes values of character, count(number) and inverted(true or false) and run DEBUG session to see results.
+1. Open the Debug Console tab.
+2. Run and debug the code to display the resulting pyramid.
+3. Modify the values of `character`, `count` (number of rows), and `inverted` (true or false).
+4. Run the debug session again to see the updated pyramid.
 
 ### Author
 
