@@ -1,8 +1,7 @@
-const character = '#';
-const count = 8;
+const character = '!';
+const count = 10;
 const rows = [];
-
-let inverted = true;
+let inverted = false;
 
 function padRow(rowNumber, rowCount) {
 	return (
@@ -23,5 +22,7 @@ for (let i = 1; i <= count; i++) {
 let result = '';
 
 for (const row of rows) {
-	result = row + '\n' + result;
+	result = result + '\n' + row;
 }
+
+console.log(result);
