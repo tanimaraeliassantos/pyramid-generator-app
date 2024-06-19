@@ -11,7 +11,7 @@ function padRow(rowNumber, rowCount) {
 		' '.repeat(rowCount - rowNumber)
 	);
 }
-// Change code to a different kind of loop
+
 for (let i = 1; i <= count; i++) {
 	if (inverted) {
 		rows.unshift(padRow(i, count));
@@ -19,14 +19,6 @@ for (let i = 1; i <= count; i++) {
 		rows.push(padRow(i, count));
 	}
 }
-
-/* while (rows.length < count) {
-	rows.push(padRow(rows.length + 1, count));
-} */
-
-/* for (let i = count; i > 0; i--) {
-	rows.push(padRow(i, count));
-} */
 
 let result = '';
 
